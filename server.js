@@ -15,7 +15,7 @@ app.use(express.static('dist'));
 const AZURE_FUNCTION_URL = process.env.AZURE_FUNCTION_URL;
 const AZURE_FUNCTION_KEY = process.env.AZURE_FUNCTION_KEY;
 
-const AZURE_STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=stdeneprojectweu01;AccountKey=NyUlzuQ0favL8g2jkTwYdAnCe0gSxXp1VuKUHsNUW9XNzzLTiDO56jTDyyTZgg0ejk8lyLSlwD36+AStSh313Q==;EndpointSuffix=core.windows.net";
+const AZURE_STORAGE_CONNECTION_STRING = "your_connection_string";
 const containerName = "feedback"; // Use an existing or create a new container
 
 const blobServiceClient = BlobServiceClient.fromConnectionString(AZURE_STORAGE_CONNECTION_STRING);
