@@ -1,4 +1,4 @@
-# Dennemeyer (Lunch AI) Exercise
+# WIPOWISE AGENT
 
 A modern, interactive AI chatbot UI for WIPO patent drafting, built with React, TypeScript, Tailwind CSS, and Express.js. This project demonstrates full-stack integration with Azure Functions and Blob Storage for scalable feedback collection and AI-powered Q&A.
 

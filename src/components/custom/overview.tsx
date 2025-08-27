@@ -17,7 +17,7 @@ export const Overview = () => {
       
         </p>
         <p className="flex flex-col items-center justify-center">
-          Welcome <strong>Dennemeyer WipoWise</strong>
+          Welcome <strong>WipoWise Agent</strong>
           <MessageCircle size={44}/>
         </p>
       </div>

@@ -52,9 +52,9 @@ export function Chat() {
       {/* Custom Header */}
       <div className="w-full flex items-center px-6 py-3 bg-[#E65100] text-white shadow-md">
         <div className="flex items-center h-16 w-16 bg-white rounded-full overflow-hidden mr-4">
-          <img src="/log.jpeg" alt="Logo" className="object-contain h-12 w-12 m-auto" />
+          {/* <img src="/log.jpeg" alt="Logo" className="object-contain h-12 w-12 m-auto" /> */}
         </div>
-        <span className="text-lg font-semibold">Dennemeyer (Lunch AI)</span>
+        <span className="text-lg font-semibold">WipoWise Agent</span>
       </div>
       <Header />
       <div className="flex flex-col min-w-0 gap-6 flex-1 overflow-y-scroll pt-4">
